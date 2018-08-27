@@ -1,0 +1,23 @@
+table {
+  width: 100%;
+  height: auto;
+  border-collapse: collapse;
+}
+
+thead {
+  font-weight: bold;
+}
+
+table tr td {
+  text-align: left;
+  border: 1px solid #4a4a4a;
+  vertical-align: top;
+}
+
+table tr:first-child {
+  font-weight: bold;
+}
+
+table tr:first-child td {
+  text-align: center;
+}
